@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Classic",
+      "price": "99",
+      "image": "https://assets.limetray.com/assets/user_images/menus/compressed/1658910941_MODMyOriginalDonut.jpg",
+      "description": " Our OG Sugar Glazed Donut"
+    },
+    {
+      "id": "2",
+      "name": "Salted Carmel",
+      "price": "119",
+      "image": "https://assets.limetray.com/assets/user_images/menus/compressed/1658911758_SaltedCaramel.jpg",
+      "description": " Our sweet donut with a twist of salted caramel buttercream, caramel drizzle, sea salt and butterscotch bits"
+    },
+    {
+      "id": "3",
+      "name": "Strawberry Swirl",
+      "price": "129",
+      "image": "https://assets.limetray.com/assets/user_images/menus/compressed/1658911685_RedVelvet.jpg",
+      "description": "Your favourite cake just got an upgrade! Strawberry filled donut with white chocolate ganache, cream cheese."
+    },
+    {
+      "id": "4",
+      "name": "Chocolate Overload",
+      "price": "129",
+      "image": "https://assets.limetray.com/assets/user_images/menus/compressed/1658909254_ChocolateDecadence.jpg",
+      "description": "Signature cocoa donut with dark and milk chocolate ganache."
+    },
+    {
+      "id": "5",
+      "name": "Rainbow Sprinkle",
+      "price": "119",
+      "image": "https://assets.limetray.com/assets/user_images/menus/compressed/1658911634_RainbowSurprise.jpg",
+      "description": " Filled with white chocolate and topped with colourful sprinkles."
+    },
+    {
+      "id": "6",
+      "name": "Brownie crumble",
+      "price": "129",
+      "image": "https://assets.limetray.com/assets/user_images/menus/compressed/1658909107_BrownieCrumble.jpg",
+      "description": "Signature cocoa donut with dark chocolate and brownie bits"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,600;1,200&display=swap');
+
+.header-container {
+    height: 30vh;
+    width: 100%;
+    background-color: #A62A6C;
+    margin: 0%;
+    display: flex;
+}
+
+.log {
+    height: 100%;
+    width: 30vh;
+}
+
+.header-container ul {
+    list-style-type: none;
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+}
+
+.header-container ul li {
+    margin-right: 30px;
+    margin-top: 20PX;
+}
+
+.icon-wrapper :hover {
+    color: white;
+    transform: scale(1.03);
+    transition: all 0.2s ease;
+}
+
+.product-list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    margin: auto;
+    width: 450px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px#E363AA;
+    margin-bottom: 30px;
+
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    background-color: #E363AA;
+    border: solid 2px #E363AA;
+    text-align: center;
+    color: #ffffff;
+    height: 40px;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #E363AA;
+    border: solid 2px #E363AA;
+    margin-right: 2px;
+}
+
+.remove-button {
+    color: #ffffff;
+    background-color: #E363AA;
+    width: 100%;
+
+}
+
+.product-desc {
+    display: flex;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.cart-qty {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: black;
+    right: -10px;
+    top: -10px;
+    background-color: white;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.cart-qty:hover {
+    color: black;
+    transform: scale(calc(1/1.03));
+}
+
+.modify-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-qty {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    background-color: #E363AA;
+    color: white;
+}
+
+.qty-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    font-size: 20px;
+}
+
+.inc,
+.dec {
+    width: 20px;
+    font-size: 25px;
+    border: 0;
+}
+
+.inc:hover,
+.dec:hover {
+    font-weight: bold;
+    margin: 0;
+    background-color: #E363AA;
+    border: 0;
+    color: white;
+    font-size: 30px;
+}
+
+.checkout-button {
+    padding: 0 10px;
+}
+
+.checkout-button:disabled {
+    cursor: not-allowed;
+    color: rgb(192, 192, 192);
+    background-color: gray;
+    border: rgb(192, 192, 192);
+}
